@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="hero-text">
+            <h1>Personal Portfolio</h1>
+            <p>Showcasing Skills, Experience, and Achievements</p>
+        </div>
+    </header>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>
+            I am a dedicated individual with a strong interest in technology, programming,
+            and continuous learning. This portfolio represents my academic background,
+            skills, and projects that I have developed over time.
+        </p>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>Python Programming</li>
+            <li>Basic GUI Development</li>
+            <li>Problem Solving</li>
+            <li>Team Collaboration</li>
+        </ul>
+    </section>
+
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Simple Cashier Application</h3>
+            <p>
+                A basic cashier program built using Python to manage transactions
+                and calculate total payments efficiently.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>GUI Form Application</h3>
+            <p>
+                A graphical user interface application created using Tkinter
+                to demonstrate form input and data processing.
+            </p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Email: alenciaa28@email.com</p>
+        <p>GitHub: github.com/yourusername</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Personal Portfolio. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
