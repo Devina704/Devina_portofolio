@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: linear-gradient(135deg, #c8f0d4, #e6d9ff);
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.hero-text h1 {
+    margin: 0;
+    color: #5a4e8c;
+}
+
+/* Sections */
+section {
+    padding: 40px 80px;
+}
+
+h2 {
+    color: #4f8f7a;
+}
+
+/* Skills */
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    background-color: #ffffffaa;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+}
+
+/* Projects */
+.project-card {
+    background-color: #ffffffcc;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Contact */
+.contact p {
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #bfa8e6;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
